@@ -1,0 +1,226 @@
+body{
+    direction: rtl;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+}
+header{
+    background-color:#F7C800;
+}
+.data{
+    margin: 5px 0;
+}
+.data a{
+    text-decoration: none;
+    font-size: 13px;
+    color:#12284C;
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    margin-right: 28px;
+}
+.data a:hover{
+    text-decoration: none;
+}
+.brands{
+    margin: 5px 0;
+}
+.brands a{
+    font-size: 18px;
+    color: #c7c7c7;
+    margin-left: 32px;
+}
+.brands a img{
+    max-width: 20px;
+
+}
+.brands a:hover{
+    text-decoration: none;
+}
+.navbar{
+    background-color:#12284C ;
+    padding: 36px;
+}
+.navbar img{
+    max-width: 200px;
+    align-items: center;
+}
+.paragraph1 p{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    line-height: 2;
+    font-size: 40px;
+}
+.paragraph1{
+    padding: 80px 0 80px 0;
+    background-color: #F7C800;
+}
+.icons{
+    display: flex;
+    background-color: #F7C800;
+    padding-bottom: 40px;
+}
+.icons img{
+    max-width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 52px 0 30px 0;;
+}
+.icons p{
+    text-align: center;
+    font-family: 'Cairo', sans-serif ;
+    font-weight: 600;
+     font-size: 18px;
+}
+.button-bar{
+    padding: 40px 0px;
+}
+.button-bar p{
+   font-size: 30px;
+   font-weight: 500;
+}
+.buttonn button{
+    padding: 20px 45px;
+    margin: 28px 29px;
+    border-radius: 18px;
+    background-color: #12284c;
+    color: white;
+    font-weight: bold;
+    font-size: small;
+}
+.wefix{
+    background-color: #f7c800;
+    padding-bottom: 30px;
+}
+.wefix h5{
+    line-height: 1.5em;
+}
+.title{
+    text-align: center;
+}
+.title h3{
+    padding-top: 21px;
+}
+.content{
+    text-align: center;
+}
+.full{
+    padding-top: 16px;
+}
+footer{
+    background-color:#12284C ;
+    padding: 36px;
+}
+.footer-logo img{
+    max-width: 200px;
+}
+.footer-brands img{
+    max-width: 30px;
+}
+.footer-number h5{
+    color: white;
+}
+@media (max-width:768px){
+    .data a{
+        margin-left: 0;
+        margin-right: 5px;
+        font-size: 10px;
+        margin-bottom: 5px;
+    }
+    .header .brands{
+        margin: 4px 0;
+    }
+    .header .data{
+        margin: 3px 0;
+    }
+    .wefix h5{
+        font-size: 18px;
+    }
+    .paragraph1 p{
+        font-size: 35px;
+    }
+    .button-bar p{
+        font-size: 21px;
+    }
+    .buttonn button{
+        padding: 10px 43px;
+    }
+    .footer-brands img{
+        max-width: 27px;
+    }
+    .footer-logo img{
+        max-width: 180px;
+    }
+    .navbar img{
+        max-width: 175px;
+    }
+    .footer-number h5{
+        font-size: 15px;
+
+    }
+}
+@media(max-width:992px){
+    .paragraph1 p {
+        font-size: 40px;
+    }
+    .data a{
+        font-size: 10px;
+    }
+}
+@media (max-width: 576px) {
+    .navbar img{
+        max-width: 115px;
+    }
+    .paragraph1 p{
+        font-size:25px;
+    }
+    .icons p{
+        font-size: 12px;
+    }
+    .header .brands{
+        margin: 0;
+    }
+    body > div.container-fluid > div > div{
+        padding: 30px;
+    }
+    .paragraph1{
+        padding: 60px 0 42px 0;
+    }
+    .button-bar{
+        padding: 23px 0px; ;
+    }
+    .button-bar p{
+        text-align: center;
+        font-size: 20px;
+}
+.buttonn button{
+    margin: 10px 29px;
+}
+body > div:nth-child(6) > div > div.col-lg-4.col-sm-4.buttonn{
+    text-align: -webkit-center;
+}
+body > div:nth-child(7) > div > div.col-lg-12.col-sm-12.content > h5{
+    font-size: 11px;
+}
+.wefix h3{
+    font-size:20px;
+    line-height: 0.2em;
+}
+footer{
+    padding: 0;
+}
+.footer-brands img{
+    max-width: 17px;
+}
+.footer-number h5{
+    font-size: 10px;
+}
+.footer-logo img{
+    max-width: 112px;
+}
+.wefix{
+    padding-bottom: 15px;
+}
+    }
